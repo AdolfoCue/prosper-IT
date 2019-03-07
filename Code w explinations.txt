@@ -1,0 +1,54 @@
+﻿
+
+
+
+
+
+
+
+We used Django for this project.
+This is simply where I added my app to the list of URL patterns. 
+
+
+
+
+
+This is a javascript function that calls the code in the previous image when loading the webpage. 
+'onload' can be added to call this function after the rest of the site is loaded. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is the functional code for the application itself. 
+Using request module, it gathers the users location data. Then plugs the users data into the url for the weather.gov website so that a webpage with their local weather info comes up. Then uses beautifulsoup to parse the web page's html for the relevant info I would like displayed. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is the front end display of the widget. 
+'{% block title %}' uses the blocks of html written for the entire site so that the style remains consistent. 
+'{{ item }}' is where I placed the code that pulls data from the API, etc.
+
+
